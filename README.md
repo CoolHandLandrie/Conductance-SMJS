@@ -3,7 +3,7 @@ Julia based scripts to calculate conductance and current for Single-molecule jun
 
 To run this file you will need to have the SMJ_Constants.jl and TransmissionFunctions.jl files in your path or located in the working directory. 
 
-SMJ_Constants.jl should not need to be edited and has some effective masses calculated using the complex extension of k-vectors via Tomfohr and Sankey. DOI: https://doi.org/10.1103/PhysRevB.65.245105
+SMJ_Constants.jl need not be edited and has some effective masses calculated using the complex extension of k-vectors via Tomfohr and Sankey. DOI: https://doi.org/10.1103/PhysRevB.65.245105
 
 TransmissionFunctions.jl will require QuadGk, Cubature and Printf packages to be loaded in your environment. The user can edit line 58 of this to change the name of Conductance_OUTPUT.txt to a system specific name, i.e. octanedithiol_conductance.txt. Additionally, one can change the output for the I-V on line 91.
 
