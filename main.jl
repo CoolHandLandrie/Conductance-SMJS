@@ -6,7 +6,7 @@ using .TransmissionFunctions # Import TransmissionFunctions module
 
 function main()
     # User inputs provided here
-    working_path = "/Users/dakotalandrie/Desktop/"
+    working_path = "/Users/path/to/working/directory/or/output/location"
     
     println("Enter effective mass of the electron (in terms of m_e): ")
     m_eff_input = parse(Float64, readline()) 
