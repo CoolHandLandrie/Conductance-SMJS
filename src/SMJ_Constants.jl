@@ -14,4 +14,6 @@ const joule = 1.0 / 4.359744722207185e-18 # 1 joule in AU
 const kB = 1.380649e-23 * joule # Boltzmann constant in AU/K
 
 end # module SMJ_Constants
-
+########## EFFECTIVE MASSES COMPUTED BY ROY GROUP via 
+#0.13 effective mass of the electron in BENZENE--TETRACENE-&-PENTACENE in AU; 0.11 E-Mass-NAPTHALENE; 
+#0.12 E-Mass-ANTHRACENE, 0.26 effective mass of electron in ALKANE in AU, 0.013 effective mass in ALKENE in AU
